@@ -49,9 +49,9 @@ find all the merged PRs from last week, and summarize them into a list. The list
 
 STEP 2:
 Take this content you summarized and do the following:
-Append it into a changelog.md file.
-Create a new branch called ‘release-notes-2026’
-Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.md file.
+- Append it into a changelog.md file.
+- Create a new branch called ‘release-notes-2026’
+- Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.md file.
 
 STEP 3:
 When the process is completed, send me an email that tells me the process is completed
@@ -77,9 +77,9 @@ STEP 1:
 
 STEP 2:
 Take this content you summarized and do the following:
-Append it into a changelog.mdx file.
-Create a new branch called ‘release-notes-2026’
-Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.mdx file.
+- Append it into a changelog.mdx file.
+- Create a new branch called ‘release-notes-2026’
+- Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.mdx file.
 
 STEP 3:
 [...]
