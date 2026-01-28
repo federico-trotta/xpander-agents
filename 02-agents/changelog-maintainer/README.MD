@@ -49,9 +49,9 @@ find all the merged PRs from last week, and summarize them into a list. The list
 
 STEP 2:
 Take this content you summarized and do the following:
-Append it into a [changelog.md](http://changelog.md/) file.
+Append it into a changelog.md file.
 Create a new branch called ‘release-notes-2026’
-Open a PR from the ‘release-notes’ to ‘main’, reporting the [changelog.md](http://changelog.md/) file.
+Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.md file.
 
 STEP 3:
 When the process is completed, send me an email that tells me the process is completed
@@ -63,5 +63,24 @@ Below is the expected result:
 
 
 ## Use Cases
-- GH repo docs
-- Mintlify repo docs (use `changelog.mdx`)
+
+This agent can be used with any software documentation hosted on GitHub repositories like [Docusaurus](https://docusaurus.io/), [Mintlify](https://www.mintlify.com/), [MkDocs](https://www.mkdocs.org/), and any other framework you prefer using.
+
+
+Note that, if the framework you use for the documentation uses `.md` files, you can leave the prompt as proposed above. Instead, if your documentation framework uses `.mdx` files, change the extension of the changelog file in the proposed prompt in the "STEP 2":
+
+```plaintext
+Proceed with the following steps:
+
+STEP 1:
+[...]
+
+STEP 2:
+Take this content you summarized and do the following:
+Append it into a changelog.mdx file.
+Create a new branch called ‘release-notes-2026’
+Open a PR from the ‘release-notes’ to ‘main’, reporting the changelog.mdx file.
+
+STEP 3:
+[...]
+```
